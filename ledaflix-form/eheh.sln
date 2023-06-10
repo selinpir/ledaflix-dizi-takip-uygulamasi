@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eheh", "eheh.csproj", "{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		şlkjhgfdsa|Any CPU = şlkjhgfdsa|Any CPU
+		üğpoıuyhgtfdsa|Any CPU = üğpoıuyhgtfdsa|Any CPU
+		vkjövjö|Any CPU = vkjövjö|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.şlkjhgfdsa|Any CPU.ActiveCfg = şlkjhgfdsa|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.şlkjhgfdsa|Any CPU.Build.0 = şlkjhgfdsa|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.üğpoıuyhgtfdsa|Any CPU.ActiveCfg = üğpoıuyhgtfdsa|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.üğpoıuyhgtfdsa|Any CPU.Build.0 = üğpoıuyhgtfdsa|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.vkjövjö|Any CPU.ActiveCfg = vkjövjö|Any CPU
+		{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}.vkjövjö|Any CPU.Build.0 = vkjövjö|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5447B27C-71C3-48B3-B0FC-7EF00B0ABC32}
+	EndGlobalSection
+EndGlobal

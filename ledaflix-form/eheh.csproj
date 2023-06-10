@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20B2123B-0883-42D0-81FE-0FE9AA70FBAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>eheh</RootNamespace>
+    <AssemblyName>eheh</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'vkjövjö|AnyCPU'">
+    <OutputPath>bin\vkjövjö\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'şlkjhgfdsa|AnyCPU'">
+    <OutputPath>bin\şlkjhgfdsa\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'üğpoıuyhgtfdsa|AnyCPU'">
+    <OutputPath>bin\üğpoıuyhgtfdsa\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasf.Designer.cs">
+      <DependentUpon>Anasf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cikis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cikis.Designer.cs">
+      <DependentUpon>Cikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Baslangic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baslangic.Designer.cs">
+      <DependentUpon>Baslangic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="db_leda_oopDataSet.cs">
+      <DependentUpon>db_leda_oopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_leda_oopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_leda_oopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Diziayrinti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diziayrinti.Designer.cs">
+      <DependentUpon>Diziayrinti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiziListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiziListesi.Designer.cs">
+      <DependentUpon>DiziListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit.Designer.cs">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anasf.resx">
+      <DependentUpon>Anasf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baslangic.resx">
+      <DependentUpon>Baslangic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cikis.resx">
+      <DependentUpon>Cikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diziayrinti.resx">
+      <DependentUpon>Diziayrinti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiziListesi.resx">
+      <DependentUpon>DiziListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit.resx">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="db_leda_oopDataSet.xsc">
+      <DependentUpon>db_leda_oopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_leda_oopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_leda_oopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_leda_oopDataSet.xss">
+      <DependentUpon>db_leda_oopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
