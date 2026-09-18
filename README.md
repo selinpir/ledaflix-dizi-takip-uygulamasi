@@ -1,4 +1,25 @@
-# ledaflix-dizi takip uygulamasi
+# LedaFlix
+
+Dizi ve filmleri takip etmek için C# ile geliştirdiğim masaüstü uygulaması.
+
+Uygulamada dizi ve film bilgilerini ekleme, görüntüleme ve takip etme işlemlerini tek bir masaüstü arayüzünde topladım. Verileri SQL tarafında tutarak uygulama ile veritabanı arasındaki bağlantıyı kurdum.
+
+## Kullanılan Teknolojiler
+
+* C#
+* SQL
+* .NET
+* Nesneye yönelik programlama (OOP)
+
+## Proje Hakkında
+
+LedaFlix, izlediğim veya takip etmek istediğim dizi ve filmleri düzenlemek için geliştirdiğim bir masaüstü uygulamasıdır.
+
+Projenin arayüzünü C# ile hazırladım ve uygulamadaki verileri SQL veritabanı üzerinden yönettim.
+
+## Ekran Görüntüleri
+
+Projeye ait uygulama ekranları aşağıda yer almaktadır.
 
 
 ![Ekran görüntüsü 2023-06-16 163519](https://github.com/selinpir/ledaflix-dizi-takip-uygulamasi/assets/113732977/0600d892-95c9-4626-9bea-738253843e2e)
@@ -11,6 +32,11 @@
 ![Ekran görüntüsü 2023-06-16 164031](https://github.com/selinpir/ledaflix-dizi-takip-uygulamasi/assets/113732977/b6bf8a36-7b5b-4c47-bbf4-972fea7bb206)
 
 
+
+
+## Not
+
+Bu proje C# ile geliştirdiğim ilk masaüstü uygulamalarından biridir.
 
 
 
